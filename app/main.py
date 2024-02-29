@@ -277,7 +277,7 @@ def check_zoom_groups():
 
     # Convert lists to sets for efficient operations
     all_users_set = set(all_users_id)
-    basic_user_group_set = set(basic_user_group_users_ids)  # ToDo - Remove this
+    basic_user_group_set = set(basic_user_group_users_ids)
     recorded_user_group_set = set(recorded_user_group_users_ids)
     recorded_and_chat_user_group_set = set(recorded_and_chat_user_group_users_ids)
 
