@@ -6,7 +6,11 @@ import requests
 from requests.auth import HTTPBasicAuth
 from fastapi.exceptions import HTTPException
 
-app = FastAPI()
+app = FastAPI(
+    title="zoom-group-manager-api-web",
+    description="A simple API to manage Zoom groups",
+    version="0.1-alpha",
+)
 
 # Load environment variables from .env file
 load_dotenv()
